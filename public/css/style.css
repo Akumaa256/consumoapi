@@ -1,0 +1,104 @@
+
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+h2{
+    font-family: 'Lilita One', sans-serif;
+    color: #f758ff;
+    font-size: 40px;
+}
+
+.content-form{
+    margin-top: 2rem;
+}
+
+/* Form */
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.text{
+    color: #020202;
+    font-weight: 500;
+}
+
+.form label{
+    color: #0e0d0d;
+}
+
+.form input#tema{
+    outline: none;
+    border: solid 0.5px #424242;
+    border-radius: 5px;
+    width: 350px;
+    padding: 0px 0px 0px 10px;
+    height: 45px;
+}
+
+.form input#tema:focus{
+    border: solid 0.5px #58e0ffc5;
+}
+
+.form input.button{
+    height: 45px;
+    width: 80px;
+    background-color: #7958ff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    box-shadow: 0px 0px 10px #ff58630e;
+}
+
+
+.form input.button:hover{
+    transition: .4s;
+    background-color: #5a4bcc;
+}
+
+
+
+.card .card-text{
+    margin-top: 10px;
+    color: #424242;
+    font-weight: 500;
+}
+
+.card img{
+    width: 18px;
+}
+
+.card .img-1, .img-2{
+    display: flex;
+}
+
+.card .img-2{
+    justify-content: end;
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.button a{
+    text-decoration: none;
+    background-color: #586bff;
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 10px #ff586308;
+}
